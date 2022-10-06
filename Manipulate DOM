@@ -1,0 +1,41 @@
+https://www.freecodecamp.org/news/how-to-manipulate-the-dom-beginners-guide/
+
+anc.classList("href", "https://www.galvanize.com);
+
+const h1 = document.createdElement("h1);
+
+h1.innerHTML = "This is my website!!";
+
+const footer = document.querySelector("footer");
+footer.parentElement.insertBefore(h1, footer);
+if (span <5) {
+add danger
+}
+
+const listOfSpans = document.getElementsByClassName("badge");
+console.log(listOfSpans.length);
+
+for(let i = 0; i<listOfSpans.length;i++){
+let currentSpan = listOfSpans[i];
+let num = Number.parseInt(currentSpan.innerText);
+if(num) > 5 && < 10)}
+
+
+get elementById()
+        <p id="master">i love javascript</p>
+
+         <script>
+        const masterEl = document.getElementById('master')
+        console.log(masterEl) //<p id="master">i love javascript</p>
+         </script>
+
+
+How to Select DOM Elements with CSS Selectors
+        .querySelector()
+        This returns the first value that matches the selector it’s given. This method can accept all CSS style selectors, allowing it to select by tag, class, or ID.
+
+        <div id=master>i am a frontend developer</div>
+
+        <script>
+        const master = document.querySelector("#master")
+        </script>
